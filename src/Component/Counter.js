@@ -18,8 +18,8 @@ const Counter = ()=>{
             <h1>Counter Value</h1>
             <div>{counter}</div>
             <div>
-                <button onClick={incrementHandler}>Increment</button>
-                <button onClick={decrementHandler}>Decrement</button>
+                <button onClick={incrementHandler}>IncrementBy 5</button>
+                <button onClick={decrementHandler}>DecrementBy 5</button>
             </div>
             <button onClick={toggleCounterHandler}>Counter Button</button>
         </main>
